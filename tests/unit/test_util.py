@@ -1,7 +1,7 @@
 '''
 Utils unit tests
 '''
-
+# pylint: disable=no-member
 import cv2
 from src import util
 
