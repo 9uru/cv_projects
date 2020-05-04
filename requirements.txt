@@ -1,2 +1,6 @@
 opencv-python==4.2.0.34
 numpy==1.18.4
+pylint
+pytest
+coverage
+pytest-cov
