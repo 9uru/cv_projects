@@ -2,3 +2,4 @@ cv_env
 .vscode/settings.json
 *.pyc
 *scratch*
+.coverage
