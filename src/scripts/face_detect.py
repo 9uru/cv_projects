@@ -1,15 +1,12 @@
 '''
-Face detector using dnn based on pyimage search
-https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/
-Mod: Read image from webcam
+Face detector using haar cascade
+on webcam feed
 '''
 
 import os
 import cv2
 import numpy as np
 from src import util
-
-CASCADE_FILES_LOC = r'E:\Code\cv_projects\cv_env\Lib\site-packages\cv2\data'
 
 
 def detect_draw_rect(
