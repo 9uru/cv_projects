@@ -37,7 +37,7 @@ def main():  # pragma: no cover
     ''' Main workflow '''
     capture = util.start_capture(None)
     face_cascade_file = os.path.join(
-        CASCADE_FILES_LOC,
+        util.get_cv2_data_loc(),
         'haarcascade_frontalface_default.xml')
     face_cascade = cv2.CascadeClassifier(face_cascade_file)
 
