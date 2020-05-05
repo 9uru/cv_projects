@@ -4,8 +4,7 @@ General utils
 
 import cv2
 
-
-def start_capture(filename):
+def start_capture(filename: str) -> cv2.VideoCapture:
     '''
     Return a camera capture if filename is none
     else a video file capture
