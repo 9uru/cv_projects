@@ -4,10 +4,7 @@
 name: cv_projects
 
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+  [push]
 
 jobs:
   build:
