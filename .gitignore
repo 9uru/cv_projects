@@ -3,4 +3,3 @@ cv_env
 *.pyc
 *scratch*
 .coverage
-testdata
