@@ -1,3 +1,4 @@
+[![Actions Status](https://github.com/9uru/cv_projects/workflows/cv_projects/badge.svg)](https://github.com/9uru/cv_projects/actions)
 # cv_projects
 Scripts and functions for computer vision test projects
 
